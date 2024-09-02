@@ -1,6 +1,6 @@
 # Dog Breed Classifier
 
-This project is a machine-learning application designed to classify dog breeds from images. Using a pre-trained MobileNetV2 model as the backbone, it fine-tunes the network on a dataset of labeled dog images to accurately predict the breed of a given dog. The project demonstrates end-to-end machine learning workflows, including data preprocessing, model training, and evaluation.
+This project is a machine-learning application designed to classify dog breeds from images. Using a pre-trained MobileNetV2 model as the backbone, it fine-tunes the network on a dataset of labelled dog images to accurately predict the breed of a given dog. The project demonstrates end-to-end machine learning workflows, including data preprocessing, model training, and evaluation.
 
 ## Features
 
@@ -51,10 +51,10 @@ The data is downloaded from the Kaggle Bluebook for Bulldozers competition. Ther
 > You must download a zip file here: https://www.kaggle.com/c/dog-breed-identification/data to run this project locally.
 > Create a directory called `data` at the root of the project and place these folders and files into it.
 > Setup the directory as such:
-> * `data/labels.csv`
-> * `data/sample_submission.csv`
-> * `data/test/`
-> * `data/train/` 
+> * `data/dog-breed-identification/labels.csv`
+> * `data/dog-breed-identification/sample_submission.csv`
+> * `data/dog-breed-identification/test/`
+> * `data/dog-breed-identification/train/` 
 
 ## 3. Evaluation
 The model's performance will be evaluated based on prediction probabilities for each dog breed for each test image. 
